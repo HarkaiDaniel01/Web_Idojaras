@@ -1,0 +1,46 @@
+table {
+    border: 2px double black;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+    background-color: beige;
+
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+th {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-image: url("01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#koordinatak {
+    text-align: center;
+    
+}
+
+#fejlec {
+    color: white;
+    background-color: black;
+}

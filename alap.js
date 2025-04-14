@@ -1,3 +1,9 @@
+document.getElementById("koordinatak").innerHTML = `
+<img src="toltes.webp">`
+
+
+
+
 let long = document.getElementById("long").value;
 let lat = document.getElementById("lat").value;
 
@@ -194,6 +200,10 @@ function megjelenit(y) {
 }
     
 function keres() {
+
+    document.getElementById("koordinatak").innerHTML = `
+<img src="toltes.webp">`
+
     let ujLat = document.getElementById("lat").value
     let ujLong = document.getElementById("long").value
 
